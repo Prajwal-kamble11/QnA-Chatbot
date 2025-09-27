@@ -1,7 +1,3 @@
-import os
-
-print("SSL_CERT_FILE =", os.environ.get("SSL_CERT_FILE"))
-
 import streamlit as st
 from groq import Groq
 from langchain_groq import ChatGroq
